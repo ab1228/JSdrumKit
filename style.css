@@ -1,0 +1,42 @@
+html {
+  background: url(https://rockymountevents.com/wp-content/uploads/2019/06/Concert-crowd-with-silhouettes-of-people-hold-their-hands-up.jpg) bottom center;
+  background-size: cover;
+}
+.keys {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+  border: .4rem solid grey;
+  border-radius: .5rem;
+  margin: .5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  height: 4rem;
+  width: 5rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+
+}
+
+.playing {
+      transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sounds {
+  text-transform: uppercase;
+  color: #ffc600;
+  text-align: center;
+}
